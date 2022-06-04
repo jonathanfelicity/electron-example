@@ -1,0 +1,19 @@
+{
+  "name": "mailbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "dist:windows": "electron-builder --windows"
+  },
+  "author": "Jonathan Felicity",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.1.0",
+    "electron-builder": "^23.0.3"
+  },
+  "dependencies": {
+    "nodemailer": "^6.7.3"
+  }
+}
